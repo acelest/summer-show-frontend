@@ -37,7 +37,7 @@ export default function Home() {
             <ul className="flex items-center space-x-8">
               <li className="animate-pulse">
                 <a
-                  href="https://www.instagram.com/p/CvA6P72OJVo/"
+                  href="https://www.instagram.com/summer_show2k24/"
                   title="Instagram"
                 >
                   <FaInstagram className="w-6 h-6 text-black transition duration-300 lg:w-8 lg:h-8 hover:scale-110" />
