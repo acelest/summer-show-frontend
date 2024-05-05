@@ -1,0 +1,133 @@
+.footer {
+  background-color: rgb(25, 90, 195);
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 50px;
+  position: relative;
+  font-style: italic;
+}
+
+.footer .part1 {
+  width: 30%;
+}
+
+.footer .part1 .title {
+  color: rgb(255, 221, 0);
+  font-size: 16px;
+  line-height: normal;
+}
+
+.footer .part1 .text {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer .part1 .icones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.footer .part2 {
+  width: 20%;
+  font-weight: 600;
+  font-style: italic;
+  color: #e6b008;
+}
+
+.footer .part2 a {
+  display: flex;
+  padding: 5px 0px;
+  align-items: flex-start;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.footer .part2 a span {
+  color: #000000;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.footer .part3 {
+  width: 25%;
+  font-style: italic;
+}
+.part3 .title {
+  width: 25%;
+  font-weight: 600;
+  font-style: italic;
+  color: #e6b008;
+}
+
+.footer .part3 .item {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .part3 .item span {
+  color: #000000;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  line-height: normal;
+}
+
+.footer .part4 {
+  width: 25%;
+  font-weight: 900;
+}
+
+.footer .part4 table {
+  border: 0.5px solid rgb(0, 0, 0);
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.footer .part4 th,
+.footer .part4 td {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+  border: 2px solid #e6b008;
+  border-radius: 50px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer .part1,
+  .footer .part2,
+  .footer .part3,
+  .footer .part4 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .footer .part1 .icones,
+  .footer .part2 a {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer .part1 .icones img,
+  .footer .part2 a span {
+    margin-left: 0;
+  }
+}
