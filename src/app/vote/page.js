@@ -1,5 +1,4 @@
 import { FaInstagram } from "react-icons/fa";
-// import Image from "../public/assets/images/summer-show.jpg";
 
 export default function Home() {
   return (
