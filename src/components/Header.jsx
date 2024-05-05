@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/* Drawer Menu */}
         <aside
-          className={`p-5 transform top-0 left-0 w-64 text-white bg-black fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30 ${
+          className={`p-5 transform top-0 left-0 w-64 text-white bg-blue-600 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30 ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
@@ -98,14 +98,14 @@ const Navbar = () => {
             onClick={() => setIsOpen(false)}
             className="flex items-center w-full p-4 border-b"
           >
-            <Tailwind className="text-black" />
+            <Tailwind className="text-white" />
           </span>
           <ul className="font-sans divide-y">
             <li>
               <a
                 href="#"
                 onClick={() => setIsOpen(false)}
-                className="inline-block my-4 text-black"
+                className="inline-block my-4 text-white"
               >
                 Home
               </a>
@@ -138,7 +138,7 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <button className="flex items-center px-3 py-2 mt-4 text-black bg-red-500 rounded cta hover:bg-blue-800">
+          <button className="flex items-center px-3 py-2 mt-4 text-black bg-yellow-500 rounded cta hover:bg-yellow-400">
             <FaInstagram className="mr-2" />{" "}
             <span className="text-xs">Instagram</span>
           </button>
