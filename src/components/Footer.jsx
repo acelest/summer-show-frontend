@@ -11,12 +11,8 @@ const Footer = () => {
           <a href="#" className="space-x-3 text-3xl text-yellow-600 ">
             <p className="text"> © Summer Show 2024</p>
           </a>
-          <a href="#">
-            <img src="misscam/images/Group%20(2).svg" alt="" />
-          </a>
-          <a href="#">
-            <img src="misscam/images/Group%20(1).svg" alt="" />
-          </a>
+          <a href="#"></a>
+          <a href="#"></a>
         </div>
       </div>
 
@@ -53,7 +49,6 @@ const Footer = () => {
         </div>
 
         <div className="item">
-          <img src="misscam/images/Group%20(5).svg" alt="" />
           <span>
             {">_ "}
             <a href="https://github.com/acelest" className="underline">
@@ -66,14 +61,16 @@ const Footer = () => {
       <div className="part4">
         <p className="title">Nombre de visiteurs</p>
         <table>
-          <tr>
-            <th>Aujourd'hui</th>
-            <th>Total</th>
-          </tr>
-          <tr>
-            <td>159</td>
-            <td>9378</td>
-          </tr>
+          <tbody>
+            <tr>
+              <th>Aujourd'hui</th>
+              <th>Total</th>
+            </tr>
+            <tr>
+              <td>159</td>
+              <td>9378</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>

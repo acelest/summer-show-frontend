@@ -152,7 +152,7 @@ export default Navbar;
 
 const Tailwind = () => (
   <svg
-    class="w-auto md:block h-10"
+    className="w-auto h-10 md:block"
     viewBox="0 0 273 64"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
