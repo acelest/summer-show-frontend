@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div>
+    <div className="bg-black">
       <p>Body</p>
       <p>Body</p>
       <p>
