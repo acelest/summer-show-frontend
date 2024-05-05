@@ -103,7 +103,7 @@ const Navbar = () => {
           <ul className="font-sans divide-y">
             <li>
               <a
-                href="#"
+                href="#home"
                 onClick={() => setIsOpen(false)}
                 className="inline-block my-4 text-white"
               >
