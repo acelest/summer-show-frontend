@@ -43,7 +43,7 @@ export default function Banner() {
                 />
               </div>
               <div className="text-part">
-                <h2 className="text-7xl font-bold text-center  text-amber-400">
+                <h2 className="text-7xl font-bold text-center interr text-amber-400">
                   THE SUMMER SHOW
                 </h2>
                 <div className="text-center">
