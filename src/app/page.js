@@ -3,6 +3,8 @@
 import Banner from "@/components/Banner";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import "./globals.css";
+
 // import Layout from "@/components/Layout";
 export default function Home() {
   return (
