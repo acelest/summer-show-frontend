@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="bg-black ">
+    <div className="bg-red-400 ">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima
         cum eveniet saepe in consectetur eum soluta sed eligendi impedit sequi
