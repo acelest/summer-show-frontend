@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+/* Appliquez la police Poetsen One à tous les éléments de votre application */
+.interr {
+  font-family: "Poetsen One";
+}
+
+/* @layer base {
   :root {
     --background: hsl(207, 48%, 98%);
     --foreground: hsl(207, 54%, 4%);
@@ -47,4 +54,4 @@
     --destructive-foreground: hsl(0, 0%, 100%);
     --ring: hsl(207, 100%, 64%);
   }
-}
+} */
