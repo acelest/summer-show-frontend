@@ -9,8 +9,6 @@ export default function Home() {
     <div className="bg-black ">
       <Header />
       <div>
-        <h1>Welcome to My Next.js App!</h1>
-        <p>This is the homepage of my Next.js application.</p>
         <Banner />
         <Banner />
         <Banner />
