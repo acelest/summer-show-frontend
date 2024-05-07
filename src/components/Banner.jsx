@@ -33,23 +33,13 @@ export default function Banner() {
       >
         <div className="bgimgover absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="wrapper">
-            <div className="inside-container">
-              <div className="dots">
-                <img src="misscam/images/dots.svg" className="d1" alt="" />
-                <img
-                  src="misscam/images/dots%20(1).svg"
-                  className="d2"
-                  alt=""
-                />
-              </div>
-              <div className="text-part">
+            <div className="inside-container relative z-10">
+              <div className="text-part relative z-10">
                 <h2 className="text-7xl font-bold text-center interr text-amber-400">
                   THE SUMMER SHOW
                 </h2>
                 <div className="text-center">
-                  {" "}
-                  {/* Ajout de la classe text-center ici */}
-                  <h3 className="text-white font-semibold mt-4 "> présente</h3>
+                  <h3 className="text-white font-semibold mt-4 ">présente</h3>
                   <a
                     href="#c-section"
                     className="btn btvoterf btnN mx-auto block mt-5"
@@ -59,6 +49,9 @@ export default function Banner() {
                     </span>
                   </a>
                 </div>
+              </div>
+              <div className="dots absolute top-0 left-0 w-full h-full flex items-center justify-center z-0">
+                <img src="assets/svg/dots.svg" className="dots-image" alt="" />
               </div>
             </div>
           </div>
