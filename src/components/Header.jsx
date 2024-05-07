@@ -11,11 +11,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full p-6  bg-black">
+    <nav className="fixed w-full p-6 bg-amber-300 z-20">
       <div className="flex items-center justify-between text-white">
         {/* Header logo */}
         <div>
-          Logo
+          SUMMER SHOW
           {/* <Tailwind /> */}
         </div>
 
@@ -72,7 +72,7 @@ const Navbar = () => {
 
         {/* Drawer Menu */}
         <aside
-          className={`p-5 transform top-0 left-0 w-64 text-white bg-blue-600 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-30 ${
+          className={`p-5 transform top-0 left-0 w-64 text-white bg-blue-600 fixed h-full overflow-auto ease-in-out transition-all duration-300 z-40 ${
             isOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
