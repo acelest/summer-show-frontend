@@ -6,7 +6,6 @@ export default function Home() {
       <div
         className="w-full h-screen"
         style={{
-          // backgroundImage: `url(${Image})`,
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
