@@ -1,15 +1,15 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["greek"] });
 
 export const metadata = {
   title: "The Summer Show",
-  description: "",
+  description: "A Last Dance",
 };
 
 const RootLayout = ({ children }) => (
-  <html lang="en">
+  <html lang="fr">
     <head>
       <link rel="icon" href="/favicon.ico" sizes="any" />
       <link
