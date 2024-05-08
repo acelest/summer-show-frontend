@@ -1,0 +1,17 @@
+.c8_sh {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(68, 0, 0, 0.498);
+  border-radius: 0;
+  box-shadow: 0 4px 30px #000;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jaro:opsz@6..72&family=Jersey+25+Charted&family=Poetsen+One&display=swap");
+
+/* // <uniquifier>: Use a unique and descriptive class name */
+.jersey-25-charted-regular {
+  font-family: "Briem Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
