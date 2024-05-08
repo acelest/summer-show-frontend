@@ -28,12 +28,14 @@ const RootLayout = ({ children }) => (
         href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
         rel="stylesheet"
       />
+      
       <link
         rel="icon"
         href="/icon?<generated>"
         type="image/png"
         sizes="32x32"
       />
+      
     </head>
     <body className={inter.className}>{children}</body>
   </html>
