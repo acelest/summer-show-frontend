@@ -1,19 +1,19 @@
+// my css category
+
 .c8_sh {
-  /* backdrop-filter: blur(5px); */
-  /* -webkit-backdrop-filter: blur(5px); */
-  /* background-color: rgba(243, 3, 3, 0.498); */
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   background-color: #fbbf24;
-  border-radius: 15px;
-  box-shadow: 0 4px 30px #000000;
+  border-radius: 15%;
+  box-shadow: 0 4px 30px;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Jaro:opsz@6..72&family=Jersey+25+Charted&family=Poetsen+One&display=swap");
 
-/* // <uniquifier>: Use a unique and descriptive class name */
+//uniquifer: use a unique and descriptive
 .jersey-25-charted-regular {
   font-family: "Briem Hand", cursive;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 }
-
