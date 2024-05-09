@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
+  // const [isOpen, setIsOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDrawer = () => {
