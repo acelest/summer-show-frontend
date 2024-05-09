@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import Candidate from "@/components/CandidatePhotos";
 import Category from "@/components/CategorySection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -13,6 +14,7 @@ export default function Home() {
         <p>This is the homepage of my Next.js application.</p>
         <Banner />
         <Category />
+        <Candidate />
       </div>
       <Footer />
     </div>
