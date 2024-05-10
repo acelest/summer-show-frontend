@@ -3,6 +3,7 @@ import { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+
 export default class HeroCarousal extends Component {
   render() {
     const settings = {
@@ -42,107 +43,68 @@ export default class HeroCarousal extends Component {
         },
       ],
     };
+
     return (
       <div className="bg-[#ffffff] py-10  ml-auto mt-6">
         <Slider {...settings}>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/macbook.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Mac
+              {/* Mac */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/iphone.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Iphone
+              {/* Iphone */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/ipad.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Ipad
+              {/* Ipad */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/iwatch.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Apple Watch
+              {/* Apple Watch */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/airpods.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Airpods
+              {/* Airpods */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/airtag.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Airtags
+              {/* Airtags */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/appletv.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Apple TV 4K
-            </p>
-          </div>{" "}
-          <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/homepod.png"
-              alt="carousal"
-            />
-            <p className="text-center pt-3 hover:underline cursor-pointer">
-              HomePod
+              {/* Apple TV 4K */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/accessories.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Accessories
+              {/* HomePod */}
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-3">
-            <img
-              className="w-full"
-              src="assets/store/giftcard.png"
-              alt="carousal"
-            />
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
             <p className="text-center pt-3 hover:underline cursor-pointer">
-              Apple GiftCard
+              {/* Accessories */}
+            </p>
+          </div>
+          <div className="flex flex-col items-center justify-center gap-3">
+            <img className="w-full" src="assets/cover1.jpg" alt="carousal" />
+            <p className="text-center pt-3 hover:underline cursor-pointer">
+              {/* Apple GiftCard */}
             </p>
           </div>
         </Slider>
