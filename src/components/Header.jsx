@@ -45,7 +45,7 @@ const Navbar = () => {
                 href="/vote"
                 className="pb-1 border-b-2 border-yellow-500 underline-on-hover active"
               >
-                Voter
+                Vote
               </a>
             </li>
             <li>
