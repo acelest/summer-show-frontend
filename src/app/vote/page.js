@@ -7,7 +7,9 @@ export default function Home() {
         className="w-full h-screen"
         style={{
           backgroundPosition: "center",
+
           backgroundSize: "cover",
+
           backgroundRepeat: "no-repeat",
         }}
       >
