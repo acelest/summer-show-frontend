@@ -1,6 +1,5 @@
 "use client";
 import "./category.css";
-// import "./styles/Category.scss";
 
 const DanceIcon = () => (
   <svg
@@ -567,76 +566,76 @@ c-16 -62 -97 -321 -181 -577 -84 -256 -156 -480 -160 -499 -16 -79 130 -282
 
 export default function Category() {
   return (
-    <div className="h-auto  mt-4">
-      <div className="bg-gray-100 pb-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 main px-5 gap-4">
+    <div className="h-auto mt-4">
+      <div className="grid grid-cols-1 gap-4 px-5 pb-3 bg-gray-100 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 main">
         <a href="#" className="block">
           <div
-            className="bg-gradient-to-b flex flex-col text-white text-2sm rounded-2xl text-center gap-2 font-bold background-image"
+            className="flex flex-col gap-2 font-bold text-center text-white bg-gradient-to-b text-2sm rounded-2xl background-image"
             style={{
               backgroundImage:
                 'url("https://cdn.sanity.io/images/c09exlh6/production/7f2c68e34b5b2b3dc37f91ef2ecd4c6a9997bdc1-1280x946.png")',
               backgroundSize: "cover",
             }}
           />
-          <div className="c8_sh py-6">
+          <div className="py-6 c8_sh">
             <div className="flex flex-row justify-center">
               <DanceIcon />
             </div>
-            <span className="text-center flex justify-center jersey-25-charted-regular font-bold">
+            <span className="flex justify-center font-bold text-center jersey-25-charted-regular">
               Danse
             </span>
           </div>
         </a>
         <a href="#" className="block">
           <div
-            className="bg-gradient-to-b flex flex-col text-white text-2sm rounded-2xl text-center gap-2 font-bold background-image"
+            className="flex flex-col gap-2 font-bold text-center text-white bg-gradient-to-b text-2sm rounded-2xl background-image"
             style={{
               backgroundImage:
                 'url("https://cdn.sanity.io/images/c09exlh6/production/7f2c68e34b5b2b3dc37f91ef2ecd4c6a9997bdc1-1280x946.png")',
               backgroundSize: "cover",
             }}
           />
-          <div className="c8_sh py-6">
+          <div className="py-6 c8_sh">
             <div className="flex flex-row justify-center">
               <ModeIcon />
             </div>
-            <span className="text-center flex justify-center jersey-25-charted-regular font-bold">
+            <span className="flex justify-center font-bold text-center jersey-25-charted-regular">
               Mode
             </span>
           </div>
         </a>
         <a href="#" className="block">
           <div
-            className="bg-gradient-to-b flex flex-col text-white text-2sm rounded-2xl text-center gap-2 font-bold background-image"
+            className="flex flex-col gap-2 font-bold text-center text-white bg-gradient-to-b text-2sm rounded-2xl background-image"
             style={{
               backgroundImage:
                 'url("https://cdn.sanity.io/images/c09exlh6/production/7f2c68e34b5b2b3dc37f91ef2ecd4c6a9997bdc1-1280x946.png")',
               backgroundSize: "cover",
             }}
           />
-          <div className="c8_sh py-6">
+          <div className="py-6 c8_sh">
             <div className="flex flex-row justify-center">
               <RapIcon />
             </div>
-            <span className="text-center flex justify-center jersey-25-charted-regular font-bold">
+            <span className="flex justify-center font-bold text-center jersey-25-charted-regular">
               Rap{" "}
             </span>
           </div>
         </a>
         <a href="#" className="block">
           <div
-            className="bg-gradient-to-b flex flex-col text-white text-2sm rounded-2xl text-center gap-2 font-bold background-image"
+            className="flex flex-col gap-2 font-bold text-center text-white bg-gradient-to-b text-2sm rounded-2xl background-image"
             style={{
               backgroundImage:
                 'url("https://cdn.sanity.io/images/c09exlh6/production/7f2c68e34b5b2b3dc37f91ef2ecd4c6a9997bdc1-1280x946.png")',
               backgroundSize: "cover",
             }}
           />
-          <div className="c8_sh py-6">
+          <div className="py-6 c8_sh">
             <div className="flex flex-row justify-center">
               <UserIcon />
             </div>
-            <span className="text-center flex justify-center jersey-25-charted-regular font-bold">
+            <span className="flex justify-center font-bold text-center jersey-25-charted-regular">
               Design{" "}
             </span>
           </div>

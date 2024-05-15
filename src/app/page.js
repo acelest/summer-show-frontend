@@ -1,7 +1,6 @@
 import Banner from "@/components/Banner";
 import Candidate from "@/components/CandidatePhotos";
 import Category from "@/components/CategorySection";
-import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import "./globals.css";
 
@@ -16,7 +15,7 @@ export default function Home() {
         <Category />
         <Candidate />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
