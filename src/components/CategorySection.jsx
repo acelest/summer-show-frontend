@@ -568,7 +568,7 @@ export default function Category() {
   return (
     <div className="h-auto mt-4">
       <div className="grid grid-cols-1 gap-4 px-5 pb-3 bg-gray-100 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 main">
-        <a href="#" className="block">
+        <a href="/danse" className="block">
           <div
             className="flex flex-col gap-2 font-bold text-center text-white bg-gradient-to-b text-2sm rounded-2xl background-image"
             style={{
